@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  margin-left: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: transparent;
+  background-color: #3d7bd9;
+}
