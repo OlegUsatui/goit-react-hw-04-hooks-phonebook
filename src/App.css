@@ -1,8 +1,6 @@
-.App {
-  text-align: center;
-  width: 500px;
-  margin: 0 auto;
-  border: 1px solid black;
+body{
+  padding-top: 30px;
+  background-image: url(./images/background-website-hd.jpg);
 }
 
 input {
@@ -14,13 +12,18 @@ ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  justify-content: center;
-  align-items: center;
+  /* margin: 0; */
+  /* margin-left: 80px; */
+  /* justify-content: center; */
+  align-items:center;
 }
 
 li {
   display: flex;
   margin-bottom: 10px;
+justify-content:space-between;
+width: 300px;
+
 }
 
 p {
@@ -28,8 +31,8 @@ p {
 }
 
 button {
-  margin-left: 20px;
-  background-color: #fff;
+  background-color: #99CCFF;
+  color: #fff;
   border-radius: 5px;
   border: 1px solid grey;
   cursor: pointer;
@@ -38,4 +41,13 @@ button {
 button:hover {
   border-color: transparent;
   background-color: #3d7bd9;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
 }
